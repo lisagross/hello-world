@@ -40,6 +40,12 @@
         maxZoom: 18, attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy;<a href="https://carto.com/attribution">CARTO</a>'
       }).addTo(map);
 
+    var highPointBar = L.marker([40.587989, -105.076720]).addTo(map);
+
+    var tooltip = 'we\'re at the High Point bar!';
+
+    highPointBar.bindTooltip(tooltip);
+
 
 </script>
 
