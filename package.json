@@ -1,0 +1,22 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "First go When I move too slowly it's because my spirit animal is a turtle.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisagross/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisagross/hello-world/issues"
+  },
+  "homepage": "https://github.com/lisagross/hello-world#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
